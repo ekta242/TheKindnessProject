@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+:root {
+  --cadet-dark: #2b2d42;
+  --cadet: #3a4159;
+  --cadet-blue: #4e5283;
+  --cadet-accent: #60a3bc;
+  --cadet-lavender: #b0aaff;
+  --cadet-star: #fffbe6;
+  --cadet-button: #8f98ff;
+  --cadet-button-hover: #a4b6f6;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, var(--cadet-dark) 70%, var(--cadet-lavender) 100%);
+  color: var(--cadet-star);
+  min-height: 100vh;
+  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 720px;
+  margin: 0 auto 32px auto;
+  padding: 0 0 32px 0;
+}
+
+h1 {
+  color: var(--cadet-lavender);
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-size: 2.2em;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-shadow: 0 2px 14px #121430, 0 1px 6px #5e69ad;
+  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+}
+
+.section {
+  padding: 28px 24px 24px 24px;
+  margin: 24px 0;
+  background: rgba(46, 48, 80, 0.94);
+  border-radius: 17px;
+  box-shadow: 0 0 22px #23236b66, 0 2px 14px #32326f33;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 1.3em;
+  margin: 22px 0 26px 0;
+  justify-content: center;
+}
+
+.nav-button {
+  background: linear-gradient(90deg, var(--cadet-button) 75%, var(--cadet-lavender) 100%);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 22px;
+  cursor: pointer;
+  font-size: 1.09em;
+  color: #24295c;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+  box-shadow: 0 1px 6px #0910362c;
+  transition: background 0.17s, box-shadow 0.18s, color 0.18s;
+}
+.nav-button.active {
+  background: var(--cadet-accent);
+  color: #fffbe6;
+  box-shadow: 0 2px 10px #4e52834b;
+}
+.nav-button:hover {
+  background: var(--cadet-button-hover);
+}
+
+textarea, input[type="text"] {
+  background: #1a213f;
+  color: #fafafe;
+  border: 2px solid var(--cadet-accent);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 98%;
+  resize: vertical;
+  box-shadow: 0 2px 10px #49618e1b;
+}
+
+button {
+  margin: 10px 0;
+  background: linear-gradient(90deg, var(--cadet-accent) 70%, var(--cadet-lavender) 100%);
+  color: #23236b;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 28px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  box-shadow: 0 1.5px 7px #23236b39;
+  transition: background 0.19s, color 0.16s;
+}
+button:disabled {
+  background: #6a6f7e;
+  color: #b0aaffbb;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 21px;
+  color: var(--cadet-lavender);
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, #5961a1 0%, #b0aaff 100%);
+  margin: 22px 0;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  background: var(--cadet-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: #364067;
+  border-radius: 7px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  pointer-events: none;
+  background: url("https://svgshare.com/i/xYF.svg") repeat;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+.bridge-graphic {
+  text-align: center;
+  padding: 16px 0 0 0;
+}
+
+::-webkit-input-placeholder { color: #b0aaffcc !important; }
+::-moz-placeholder { color: #b0aaffcc !important; }
+:-ms-input-placeholder { color: #b0aaffcc !important; }
+::placeholder { color: #b0aaffcc !important; }
