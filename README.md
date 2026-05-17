@@ -8,8 +8,9 @@ It also includes a demo/fallback mode so the app can run even on systems that do
 
 ---
 ## How I built this
-Built with AI-assisted development while learning React and browser AI APIs. 
-I designed the concept, the points system logic, and the fallback architecture. Reading through the Chrome AI API documentation and understanding why on-device AI needs fallbacks was the core learning from this project.
+- Built with AI-assisted development while learning React and browser AI APIs. 
+- I designed the concept, the points system logic, and the fallback architecture.
+- Reading through the Chrome AI API documentation and understanding why on-device AI needs fallbacks was the core learning from this   project.
 
 ## 💡 Features
 
