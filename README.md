@@ -7,6 +7,9 @@ The app generates ideas for acts of kindness, allows users to reflect on them, a
 It also includes a demo/fallback mode so the app can run even on systems that don’t yet support Gemini Nano hardware.
 
 ---
+## How I built this
+Built with AI-assisted development while learning React and browser AI APIs. 
+I designed the concept, the points system logic, and the fallback architecture. Reading through the Chrome AI API documentation and understanding why on-device AI needs fallbacks was the core learning from this project.
 
 ## 💡 Features
 
